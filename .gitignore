@@ -3,3 +3,16 @@ __pycache__/
 *.pyc
 .env
 .ipynb_checkpoints/
+
+# Large model files
+*.bin
+*.safetensors
+*.pt
+*.onnx
+
+# Large datasets
+data/*.parquet
+data/*.csv
+
+# Model directories
+models/
