@@ -11,8 +11,8 @@ __pycache__/
 *.onnx
 
 # Large datasets
-data/*.parquet
-data/*.csv
+**/data/*.parquet
+**/data/*.csv
 
 # Model directories
 models/
